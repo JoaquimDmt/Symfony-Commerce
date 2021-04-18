@@ -1,3 +1,6 @@
 framework:
     mailer:
         dsn: '%env(MAILER_DSN)%'
+
+# use maildev for testing :
+# maildev --hide-extensions STARTTLS
