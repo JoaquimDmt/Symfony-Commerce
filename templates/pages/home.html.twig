@@ -3,13 +3,13 @@
 {% block title 'Agence Symfony' %}
 
 {% block body %}
-    <div class="text-center bg-light p-4">
-        <h1>Bienvenue sur la page d'accueil !</h1>
+    <div class="text-center bg-light p-5">
+        <h1 class="mb-3">Bienvenue sur la page d'accueil !</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut cumque dolore error expedita itaque iure iusto magni, molestiae numquam omnis provident quae repellat sint soluta tempora unde voluptate voluptatibus.</p>
     </div>
-    <div class="container">
+    <div class="container my-4">
         <h2>Les derniers biens</h2>
-        <div class="row flex">
+        <div class="row flex mt-3">
             {% for property in properties %}
                 <div class="col-3">
                     <div class="card">
