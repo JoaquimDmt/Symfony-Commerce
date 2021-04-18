@@ -18,15 +18,15 @@ class PropertySearch {
      */
     private $minSurface;
 
-//    /**
-//     * @var ArrayCollection
-//     */
-//    private $options;
-//
-//    public function __construct()
-//    {
-//        $this->options = new ArrayCollection();
-//    }
+    /**
+     * @var ArrayCollection
+     */
+    private $options;
+
+    public function __construct()
+    {
+        $this->options = new ArrayCollection();
+    }
 
     /**
      * @return int|null
@@ -64,20 +64,20 @@ class PropertySearch {
         return $this;
     }
 
-//    /**
-//     * @return ArrayCollection
-//     */
-//    public function getOptions(): ArrayCollection
-//    {
-//        return $this->options;
-//    }
-//
-//    /**
-//     * @param ArrayCollection $options
-//     */
-//    public function setOptions(ArrayCollection $options): void
-//    {
-//        $this->options = $options;
-//    }
+    /**
+     * @return ArrayCollection
+     */
+    public function getOptions(): ArrayCollection
+    {
+        return $this->options;
+    }
+
+    /**
+     * @param ArrayCollection $options
+     */
+    public function setOptions(ArrayCollection $options): void
+    {
+        $this->options = $options;
+    }
 
 }

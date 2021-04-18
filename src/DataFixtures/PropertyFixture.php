@@ -11,7 +11,7 @@ class PropertyFixture extends Fixture
 {
     # to generate random properties
     # type in terminal: php bin/console doctrine:fixtures:load
-    # warning! it will remove everything from database
+    # warning! it will remove everything from database in property table
     public function load(ObjectManager $manager)
     {
         $faker = Factory::create('fr_FR');
