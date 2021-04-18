@@ -2,6 +2,9 @@ home:
   path: /
   controller: App\Controller\HomeController::index
 
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+admin:
+  path: /admin
+  controller: App\Controller\AdminPropertyController::index
+
+logout:
+  path: /logout
